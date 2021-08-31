@@ -1,0 +1,82 @@
+.none {
+    display: none;
+}
+
+#app-root {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.search-item {
+    display: flex;
+    align-items: center;
+}
+
+.search-item_wrp {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    margin-left: 20px;
+    width: 110px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+main p {
+    margin: 0;
+}
+
+table {
+    width: 900px;
+    table-layout: fixed;
+}
+
+th {
+    background-color: green;
+    height: 60px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+  
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.sortedCell {
+    cursor: pointer;
+}
+
+.sortedCell.asc:after {
+    content: ' ↑';
+}
+
+.sortedCell.desc:after {
+    content: ' ↓'
+}
+
+.sortedCell:after {
+    content: ' ↕'
+}
